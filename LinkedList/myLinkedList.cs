@@ -6,21 +6,21 @@ public class myLinkedList
 
     public void InsertHead(myLinkedList singleList, int data)
     {
-        Node new_node = new Node(data);
-        new_node.next = singleList.head;
-        singleList.head = new_node;
+        Node newNode = new Node(data);
+        newNode.next = singleList.head;
+        singleList.head = newNode;
     }
 
     public void InsertTail(myLinkedList singleList, int data)
     {
-        Node new_node = new Node(data);
+        Node newNode = new Node(data);
         if (singleList.head == null)
         {
-            singleList.head = new_node;
+            singleList.head = newNode;
             return;
         }
         Node lastNode = GetTail(singleList);
-        lastNode.next = new_node;
+        lastNode.next = newNode;
     }
 
     public Node GetTail(myLinkedList singleList)
@@ -33,16 +33,18 @@ public class myLinkedList
         return temp;
     }
 
-    public void InsertAfter(Node prev_node, int data)
+    public void InsertAfter(myLinkedList singleList, int numNode, int data)
     {
-        if (prev_node == null)
+        Node temp = singleList.head;
+        int i = 1;
+        while (i!=numNode-1 && temp != null)
         {
-            Console.WriteLine("The given previous node should exist!");
-            return;
+            temp = temp.next;
+            i++;
         }
-        Node new_node = new Node(data);
-        new_node.next = prev_node.next;
-        prev_node.next = new_node;
+        Node newNode = new Node(data);
+        newNode.next = temp.next;
+        temp.next = newNode;
     }
 
     public void DeleteNode(myLinkedList singleList, int key)
