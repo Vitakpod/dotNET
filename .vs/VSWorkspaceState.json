@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\BinaryTree",
+    "\\Insertion Sort",
     "\\LinkedList"
   ],
-  "SelectedNode": "\\LinkedList\\Program.cs",
+  "SelectedNode": "\\Insertion Sort\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
