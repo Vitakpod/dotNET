@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\BinaryTree",
     "\\LinkedList"
   ],
-  "SelectedNode": "\\LinkedList\\LinkedList.csproj",
+  "SelectedNode": "\\LinkedList\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
