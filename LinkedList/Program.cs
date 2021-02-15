@@ -7,7 +7,7 @@ namespace LinkedList
         static void Main(string []args)
         {
             Console.WriteLine("How many nodes do you want to add?");
-            myLinkedList myList = new myLinkedList();
+            myLinkedlist myList = new myLinkedlist();
             string response = Console.ReadLine();
             int num = Int32.Parse(response);
 

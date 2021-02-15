@@ -1,31 +1,31 @@
 ﻿using System;
 
-public class myLinkedList
+public class myLinkedlist
 {
     private Node head;
 
-    public void InsertHead(myLinkedList List, int data)
+    public void InsertHead(myLinkedlist list, int data)
     {
         Node newNode = new Node(data);
-        newNode.next = List.head;
-        List.head = newNode;
+        newNode.next = list.head;
+        list.head = newNode;
     }
 
-    public void InsertTail(myLinkedList List, int data)
+    public void InsertTail(myLinkedlist list, int data)
     {
         Node newNode = new Node(data);
-        if (List.head == null)
+        if (list.head == null)
         {
-            List.head = newNode;
+            list.head = newNode;
             return;
         }
-        Node lastNode = GetTail(List);
+        Node lastNode = GetTail(list);
         lastNode.next = newNode;
     }
 
-    public Node GetTail(myLinkedList List)
+    public Node GetTail(myLinkedlist list)
     {
-        Node temp = List.head;
+        Node temp = list.head;
         while (temp.next != null)
         {
             temp = temp.next;
@@ -33,9 +33,9 @@ public class myLinkedList
         return temp;
     }
 
-    public void InsertAfter(myLinkedList List, int numNode, int data)
+    public void InsertAfter(myLinkedlist list, int numNode, int data)
     {
-        Node temp = List.head;
+        Node temp = list.head;
         int i = 1;
         while (i!=numNode-1 && temp != null)
         {
@@ -47,13 +47,13 @@ public class myLinkedList
         temp.next = newNode;
     }
 
-    public void DeleteNode(myLinkedList List, int key)
+    public void DeleteNode(myLinkedlist list, int key)
     {
-        Node temp = List.head;
+        Node temp = list.head;
         Node prev = null;
         if (temp != null && temp.data == key)
         {
-            List.head = temp.next;
+            list.head = temp.next;
             return;
         }
         while (temp != null && temp.data != key)
@@ -68,10 +68,10 @@ public class myLinkedList
         prev.next = temp.next;
     }
 
-    public void Reverse(myLinkedList List)
+    public void Reverse(myLinkedlist list)
     {
         Node prev = null;
-        Node current = List.head;
+        Node current = list.head;
         Node temp = null;
         while (current != null)
         {
@@ -80,10 +80,10 @@ public class myLinkedList
             prev = current;
             current = temp;
         }
-        List.head = prev;
+        list.head = prev;
     }
 
-    public void printAllNodes(myLinkedList List)
+    public void printAllNodes(myLinkedlist list)
     {
         Node current = head;
         while (current != null)
