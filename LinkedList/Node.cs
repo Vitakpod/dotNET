@@ -5,9 +5,9 @@ public class Node
     public int data;
     public Node next;
 
-    public Node(int d)
+    public Node(int dat)
     {
-        data = d;
+        data = dat;
         next = null;
     }
 }
