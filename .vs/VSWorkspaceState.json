@@ -3,8 +3,9 @@
     "",
     "\\BinaryTree",
     "\\Insertion Sort",
-    "\\LinkedList"
+    "\\LinkedList",
+    "\\ZooDatabase"
   ],
-  "SelectedNode": "\\Insertion Sort\\Program.cs",
+  "SelectedNode": "\\ZooDatabase\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

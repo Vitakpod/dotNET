@@ -1,0 +1,13 @@
+C:\Users\Viktor\source\repos\dotNET\ZooDatabase\bin\Debug\netcoreapp3.1\ZooDatabase.exe
+C:\Users\Viktor\source\repos\dotNET\ZooDatabase\bin\Debug\netcoreapp3.1\ZooDatabase.deps.json
+C:\Users\Viktor\source\repos\dotNET\ZooDatabase\bin\Debug\netcoreapp3.1\ZooDatabase.runtimeconfig.json
+C:\Users\Viktor\source\repos\dotNET\ZooDatabase\bin\Debug\netcoreapp3.1\ZooDatabase.runtimeconfig.dev.json
+C:\Users\Viktor\source\repos\dotNET\ZooDatabase\bin\Debug\netcoreapp3.1\ZooDatabase.dll
+C:\Users\Viktor\source\repos\dotNET\ZooDatabase\bin\Debug\netcoreapp3.1\ZooDatabase.pdb
+C:\Users\Viktor\source\repos\dotNET\ZooDatabase\obj\Debug\netcoreapp3.1\ZooDatabase.csprojAssemblyReference.cache
+C:\Users\Viktor\source\repos\dotNET\ZooDatabase\obj\Debug\netcoreapp3.1\ZooDatabase.AssemblyInfoInputs.cache
+C:\Users\Viktor\source\repos\dotNET\ZooDatabase\obj\Debug\netcoreapp3.1\ZooDatabase.AssemblyInfo.cs
+C:\Users\Viktor\source\repos\dotNET\ZooDatabase\obj\Debug\netcoreapp3.1\ZooDatabase.csproj.CoreCompileInputs.cache
+C:\Users\Viktor\source\repos\dotNET\ZooDatabase\obj\Debug\netcoreapp3.1\ZooDatabase.dll
+C:\Users\Viktor\source\repos\dotNET\ZooDatabase\obj\Debug\netcoreapp3.1\ZooDatabase.pdb
+C:\Users\Viktor\source\repos\dotNET\ZooDatabase\obj\Debug\netcoreapp3.1\ZooDatabase.genruntimeconfig.cache
